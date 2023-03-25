@@ -1,0 +1,54 @@
+body
+{
+    background-size: cover;
+}
+
+.heading
+{
+    font-size: 30px;
+    width: 100%;
+    margin: 0px;
+    color: rgba(73, 11, 138, 0.767);
+    border-radius: 0px;
+    font-family: Comic, Cursive;
+}
+
+.heading:hover
+{
+    color: rgba(73, 11, 138, 0.767);
+    background-color: rgb(27, 169, 27);
+}
+
+#note
+{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.658);
+    width: 100%;
+    border-radius: 0px;
+    font-family: Cursive;
+}
+
+#status, #notifier
+{
+    font-size: 18px;
+}
+
+.copy_right_footer
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    line-height: 3;
+    text-align: center;
+}
+
+canvas
+{
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px grey;
+}
